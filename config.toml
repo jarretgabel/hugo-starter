@@ -1,5 +1,5 @@
 baseURL = ""
-title = "ESPN Project"
+title = "Hugo Starter"
 
 [security]
 	[security.exec]
