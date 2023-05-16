@@ -11,6 +11,6 @@
 - `commit`: Adds all files to commit, commits and pushes to github
 
 #### Dependecies
-- sass
-- babel
-- gsap
+- [sass](https://sass-lang.com)
+- [babel](https://babeljs.io)
+- [gsap](https://greensock.com/gsap/)
