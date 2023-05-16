@@ -21,3 +21,5 @@ yarn-error.log
 .git
 .google-services.json
 .service-account.json
+
+resources/
