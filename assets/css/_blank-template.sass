@@ -1,0 +1,50 @@
+// hide the top toolbar
+#toolbar
+  display: none
+
+// hide an invisible div that is used with the #toolbar
+#main-header
+  display: none
+
+#main-article
+  top: 0 !important
+  padding-top: 0
+  padding-bottom: 0 !important
+
+#section-1 .container
+  background: none
+  padding: 0
+  width: 100%
+  overflow: visible
+  margin: 0 !important
+
+// hide the jumper
+.jumper
+  display: none
+
+.container
+  p
+    max-width: none
+    margin-bottom: 0
+    line-height: 22px
+
+  a, a:hover, a:visited
+    text-decoration: none
+
+#toolbar
+  z-index: 9998
+  background: #000
+
+  //#e60e16;
+
+#toolbar > h1.logo a.espn
+  background: rgba(0, 0, 0, 0) url("http://a2.espncdn.com/prod/styles/pagetype/otl/20161007_goatbusters/images/espn_logo-2x.png") no-repeat scroll 0 1px / 79px 21px
+  width: 89px
+  height: 22px
+
+.mod-page-actions
+  top: 11px
+
+.mod-page-actions li a .sprite-page-actions
+  margin: 0
+  height: 20px

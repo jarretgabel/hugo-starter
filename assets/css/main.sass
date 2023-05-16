@@ -1,0 +1,34 @@
+@charset 'utf-8'
+
+$sans-headline: 'HCo Tungsten', sans-serif
+$sans: 'bentonsans', sans-serif
+$sans-md: 'bentonsansmedium', sans-serif
+$sans-bd: 'bentonsansbold', sans-serif
+$publico-text: 'Publico Banner Web', serif
+
+$cubic-in-out: cubic-bezier(0.645, 0.045, 0.355, 1.000)
+$cubic-out: cubic-bezier(0.215, 0.610, 0.355, 1.000)
+$cubic-in: cubic-bezier(0.550, 0.055, 0.675, 0.190)
+
+$blue: #4F5A76
+$blue-dk: #041134
+$blue-lt: #81889c
+$blue-alt: #2A3552
+$red: #FF0A0A
+$gray: #E6E7EB
+
+body
+  background-color: white
+  color: black
+
+@import 'reset'
+@import 'blank-template'
+
+.espn-custom
+  font-family: $sans
+
+  @import 'mixins'
+  @import 'theme/typography'
+  @import 'theme/intro'
+  @import 'theme/section'
+  @import 'theme/conclusion'

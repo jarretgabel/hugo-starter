@@ -1,0 +1,250 @@
+body {
+  background-color: white;
+  color: black; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  overflow-x: hidden; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+*:focus {
+  border: 0;
+  outline: none;
+  box-shadow: none; }
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, li, figure {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+img {
+  user-select: none;
+  display: flex; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
+
+.ad-prevent-jump,
+#ad-Overlay,
+#ad-OutStream,
+#popup-interstitial-dialog {
+  display: none !important; }
+
+#toolbar {
+  display: none; }
+
+#main-header {
+  display: none; }
+
+#main-article {
+  top: 0 !important;
+  padding-top: 0;
+  padding-bottom: 0 !important; }
+
+#section-1 .container {
+  background: none;
+  padding: 0;
+  width: 100%;
+  overflow: visible;
+  margin: 0 !important; }
+
+.jumper {
+  display: none; }
+
+.container p {
+  max-width: none;
+  margin-bottom: 0;
+  line-height: 22px; }
+
+.container a, .container a:hover, .container a:visited {
+  text-decoration: none; }
+
+#toolbar {
+  z-index: 9998;
+  background: #000; }
+
+#toolbar > h1.logo a.espn {
+  background: rgba(0, 0, 0, 0) url("http://a2.espncdn.com/prod/styles/pagetype/otl/20161007_goatbusters/images/espn_logo-2x.png") no-repeat scroll 0 1px/79px 21px;
+  width: 89px;
+  height: 22px; }
+
+.mod-page-actions {
+  top: 11px; }
+
+.mod-page-actions li a .sprite-page-actions {
+  margin: 0;
+  height: 20px; }
+
+.espn-custom {
+  font-family: "bentonsans", sans-serif; }
+  .espn-custom .h1, .espn-custom .h2, .espn-custom .h3, .espn-custom .h4, .espn-custom .h5, .espn-custom .h6 {
+    font-family: "HCo Tungsten", sans-serif; }
+  .espn-custom .h1 {
+    font-weight: 700;
+    line-height: 72%;
+    letter-spacing: -.01em;
+    font-size: 67vw;
+    text-transform: uppercase; }
+    @media screen and (min-width: 780px) {
+      .espn-custom .h1 {
+        font-size: 30vw; } }
+    @media screen and (min-width: 1000px) {
+      .espn-custom .h1 {
+        font-size: 28vw; } }
+  .espn-custom .h2 {
+    font-weight: 600;
+    line-height: 80%;
+    letter-spacing: 0;
+    font-size: 77px; }
+    @media screen and (min-width: 780px) {
+      .espn-custom .h2 {
+        font-size: 205px; } }
+    @media screen and (min-width: 1000px) {
+      .espn-custom .h2 {
+        font-size: 295px; } }
+  .espn-custom .h3 {
+    font-weight: 400;
+    line-height: 84%;
+    letter-spacing: 0;
+    font-size: 70px; }
+    @media screen and (min-width: 780px) {
+      .espn-custom .h3 {
+        font-size: 127px; } }
+    @media screen and (min-width: 1000px) {
+      .espn-custom .h3 {
+        font-size: 190px; } }
+  .espn-custom .h4 {
+    font-weight: 400;
+    line-height: 84%;
+    letter-spacing: 0;
+    font-size: 32px; }
+    @media screen and (min-width: 780px) {
+      .espn-custom .h4 {
+        font-size: 70px; } }
+    @media screen and (min-width: 1000px) {
+      .espn-custom .h4 {
+        font-size: 122px; } }
+  .espn-custom .h5 {
+    font-weight: 400;
+    line-height: 84%;
+    letter-spacing: 0;
+    font-size: 32px; }
+    @media screen and (min-width: 780px) {
+      .espn-custom .h5 {
+        font-size: 48px; } }
+    @media screen and (min-width: 1000px) {
+      .espn-custom .h5 {
+        font-size: 48px; } }
+  .espn-custom .h6 {
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0;
+    font-size: 24px; }
+    @media screen and (min-width: 780px) {
+      .espn-custom .h6 {
+        font-size: 36px;
+        line-height: 84%; } }
+    @media screen and (min-width: 1000px) {
+      .espn-custom .h6 {
+        font-size: 36px; } }
+  .espn-custom .e1 {
+    font-size: 10px;
+    font-family: "bentonsansmedium", sans-serif; }
+    @media screen and (min-width: 780px) {
+      .espn-custom .e1 {
+        font-size: 12px; } }
+  .espn-custom .e2 {
+    font-size: 10px;
+    font-family: "bentonsansbold", sans-serif; }
+    @media screen and (min-width: 780px) {
+      .espn-custom .e2 {
+        font-size: 12px; } }
+  .espn-custom p, .espn-custom .p {
+    font-size: 13px;
+    font-family: "bentonsans", sans-serif;
+    line-height: 130%; }
+    @media screen and (min-width: 780px) {
+      .espn-custom p, .espn-custom .p {
+        font-size: 14px; } }
+    .espn-custom p.large, .espn-custom .p.large {
+      font-size: 30px;
+      font-family: "Publico Banner Web", serif;
+      line-height: 105%; }
+      @media screen and (min-width: 780px) {
+        .espn-custom p.large, .espn-custom .p.large {
+          font-size: 48px; } }
+      @media screen and (min-width: 1000px) {
+        .espn-custom p.large, .espn-custom .p.large {
+          font-size: 61px; } }
+  .espn-custom .intro {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #d0d0d0;
+    height: 100vh;
+    position: relative;
+    background-color: red; }
+    @media screen and (min-width: 780px) {
+      .espn-custom .intro {
+        background-color: blue; } }
+    .espn-custom .intro__button {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      cursor: pointer; }
+  .espn-custom .section {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #d0d0d0; }
+    .espn-custom .section p {
+      margin-top: 20px; }
+  .espn-custom .conclusion {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #d0d0d0; }
+
+/*# sourceMappingURL=main.css.map */

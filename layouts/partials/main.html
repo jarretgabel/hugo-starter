@@ -1,0 +1,9 @@
+<div class="espn-custom" data-tracking-name="221007_nhl_ovechkin">
+  {{ partial "components/intro" }}
+  
+  {{ range .Site.Data.data.sections }}
+    {{ partial "components/section" . }}
+  {{ end }}
+
+  {{ partial "components/conclusion" }}
+</div>
