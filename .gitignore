@@ -19,6 +19,5 @@ yarn-error.log
 # Misc
 #
 .git
-.env
 .google-services.json
 .service-account.json
