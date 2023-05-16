@@ -21,13 +21,15 @@ body
   background-color: white
   color: black
 
-@import 'reset'
-@import 'blank-template'
+@import 'common/reset'
+@import 'common/blank-template'
+@import 'common/espn-toolbar'
+@import 'common/breakpoints'
+@import 'common/mixins'
 
 .espn-custom
   font-family: $sans
 
-  @import 'mixins'
   @import 'theme/typography'
   @import 'theme/intro'
   @import 'theme/section'

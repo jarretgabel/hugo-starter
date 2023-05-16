@@ -1,0 +1,13 @@
+$breakpoints: ("s": 780px, "m": 1000px, "l": 1300px)
+
+// Map breakpoints
+@function breakpoint($b)
+  @return map-get($breakpoints, $b)
+
+=from($b)
+  @media screen and (min-width: breakpoint($b))
+    @content
+
+=upto($b)
+  @media screen and (max-width: breakpoint($b) - 1px)
+    @content

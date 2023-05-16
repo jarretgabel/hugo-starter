@@ -4,6 +4,7 @@ gsap.registerPlugin(ScrollToPlugin)
 
 import Polyfills from "./common/Polyfills"
 import Intro from './components/Intro'
+import Utils from './common/Utils'
 
 window.ESPN = window.ESPN || {}
 
@@ -14,6 +15,8 @@ class App {
 	}
 
   kickoff() {
+    Utils.replaceLogos()
+
     new Intro()
   }
 }

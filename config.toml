@@ -1,2 +1,6 @@
 baseURL = ""
 title = "ESPN Project"
+
+[security]
+	[security.exec]
+		allow = ['^go$', '^npx$', '^postcss$', '^babel$']
