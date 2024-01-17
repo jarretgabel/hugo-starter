@@ -2,10 +2,30 @@
   "sections": [
     {
       "title": "Section 1",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, officia!"
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, officia!",
+      "level1": {
+        "title": "Section 1",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, officia!",
+        "level2": {
+          "title": "Section 1",
+          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, officia!",
+          "level3": {
+            "title": "Section 1",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, officia!",
+            "level4": {
+              "title": "Section 1",
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, officia!"
+            }
+          }
+        }
+      }
     },
     {
       "title": "Section 2",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, officia!"
+    },
+    {
+      "title": "Section 3",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, officia!"
     }
   ]

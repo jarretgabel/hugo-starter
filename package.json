@@ -3,7 +3,8 @@
     "@babel/cli": "^7.13.16",
     "@babel/core": "^7.14.2",
     "@babel/preset-env": "^7.14.2",
-    "gsap": "^3.11.0"
+    "gsap": "^3.11.0",
+    "octokit": "^2.0.16"
   },
   "config": {
     "host": "assets-sftp.espn.com",
