@@ -23,6 +23,10 @@
     {
       "title": "Section 2",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, officia!"
+    },
+    {
+      "title": "Section 3",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, officia!"
     }
   ]
 }
